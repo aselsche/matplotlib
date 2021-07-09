@@ -1,11 +1,8 @@
 **Matplotlib Challenge**
 
-As a senior data analyst at the company, I was given access to the complete data from our most recent animal study. In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. 
+As a senior data analyst at the company, I was given access to the complete data from our most recent animal study. In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens.  Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens.  
 
-Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. 
-
-My tasks were to generate tables and figures needed for the technical report of the study as well as prepare a top-level summary of the study results.
-
+My tasks were to generate tables and figures needed for the technical report of the study as well as prepare a top-level summary of the study results. I used an open source data analysis and manipulation tool, Pandas, and a next-generation web-based user interface, Jupyter Notebook, to analyze a district-wide raw data. The analysis can be found here: [Jupyter Notebook](pymaceuticals.ipynb). 
 
 **Summary:**
 
