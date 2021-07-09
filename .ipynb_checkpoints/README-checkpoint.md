@@ -13,13 +13,13 @@ First of all, to confirm the total number of total mice, I looked to see of ther
 
 Using both, the summary statistical method usining groupby and the aggregate method, a summary statistics table was prepared. It showcases the mean, median, variance, standard deviation, and SEM of the tumor volume.
 
-A Bar chart types were used to visualize the data on total number of unique mice tested on each drug regimen using pandas and pyplot. From the selected treatments Capomulin (230 mice) and Ramicane (228) were the most tested; Propriva being the least tested drug treatment (148). The Pie chart was used to present data on the distribution of female (49.6%) versus male (50.4%) mice. 
+Bar and Pie chart types were used to visualize the data on total number of unique mice tested on each drug regimen using pandas and pyplot. From the selected treatments Capomulin (230 mice) and Ramicane (228) were the most used; Propriva being the least used drug treatment (148). The Pie chart was used to present data on the distribution of female (49.6%) versus male (50.4%) mice. 
 
-Using upper adn lower bounds, outliers were studied per each drug regimen. The only drug regiment that had potential outlier was Infubinol which was 36.32.
+Using upper adn lower bounds, outliers were studied per each drug regimen. the only drug regiment that had potential outlier was Infubinol which was 36.32.
 
-The correlation between mouse weight (g) and average tumor volume (mm) is 0.95 which shows a strong positive correlation; when the mouse weight increases the average tumor volume also increases. In addition, a regression analysis was carried out to show how much the average tumor volume will change when weight of mice change. The R-squared value is 0.90 which measures the closeness of the data to the fitted regression line. 90%  indicates that there are smaller differences between the observed data, and the fitted value. 
+The correlation between mouse weight (g) and average tumor volume (mm) is 0.95 which shows a strong positive correlation; when the mouse weight increases the average tumor volume also increases. In addition, a regression analysis was carried out to show how much the average tumor volume (dependent variable) will change when weight of mice change(independent variables). The R-squared value is 0.90 which measures the closeness of the data to the fitted regression line. 90%  indicates that there are smaller differences between the observed data, and the fitted value. 
 
-Using a line plot, were were able to analyze how the tumor volumne changed with time (using the timepoint) when mouse was treated with Capomulin. It showed the tumor sized decreased with higher timepoint.
+Using a line plot, were were able to analyze how the tumor volumne changed with the time (using the timepoint) when mouse was treated with Capomulin. It showed the tumor sized decreased with higher timepoint.
 
 Using the scatter plot, we looked at the relationship between  average tumor volume and mouse weight for the Capomulin regimen, which showed again a positive correlation between the tumor volume and weight.
 
