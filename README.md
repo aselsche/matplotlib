@@ -13,6 +13,8 @@ Using both, the summary statistical method usining groupby and the aggregate met
 A Bar chart types were used to visualize the data on total number of unique mice tested on each drug regimen using pandas and pyplot. From the selected treatments Capomulin (230 mice) and Ramicane (228) were the most tested; Propriva being the least tested drug treatment (148). The Pie chart was used to present data on the distribution of female (49.6%) versus male (50.4%) mice. 
 
 Using upper adn lower bounds, outliers were studied per each drug regimen. The only drug regiment that had potential outlier was Infubinol which was 36.32.
+![image](https://user-images.githubusercontent.com/84043141/147788088-d61f9f80-9e86-4af6-8e67-a069f753486e.png)
+
 
 The correlation between mouse weight (g) and average tumor volume (mm) is 0.95 which shows a strong positive correlation; when the mouse weight increases the average tumor volume also increases. In addition, a regression analysis was carried out to show how much the average tumor volume will change when weight of mice change. The R-squared value is 0.90 which measures the closeness of the data to the fitted regression line. 90%  indicates that there are smaller differences between the observed data, and the fitted value. 
 
